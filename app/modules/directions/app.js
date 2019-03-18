@@ -8,7 +8,7 @@ directions.prototype.constructor = directions;
 
 directions.prototype.init = function(div) {
     this.container = div;
-    this.apikey = "AIzaSyB7ttwRpJsLHpIBja10PPRHvxQbDWG4vb8"
+    this.apikey = "API-KEY-HERE"
 
     this.modal = new SAMAC.Modal("directions","map");
     this.modal.init("",["modal-fixed-footer","outline"])
