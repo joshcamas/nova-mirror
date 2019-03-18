@@ -1,0 +1,7 @@
+{
+  "id":"default",
+  "options": {},
+  "dependencies": ["jokes.js"],
+  "scripts": ["app.js"],
+  "css": ["app.css"]
+}

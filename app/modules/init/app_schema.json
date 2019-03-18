@@ -1,0 +1,7 @@
+{
+  "id":"init",
+  "options": {},
+  "dependencies": [],
+  "scripts": ["app.js"],
+  "css": ["app.css"]
+}

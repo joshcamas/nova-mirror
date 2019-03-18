@@ -1,0 +1,15 @@
+{
+  "id":"default",
+  "options": {"address":"Address Here"},
+  "dependencies": [],
+  "scripts": ["app.js"],
+  "css": ["app.css"],
+  "commands": [{
+      "command": "Show me directions to ____",
+      "description": "Shows directions from your location"
+  },
+  {
+      "command": "Show me a map of _____",
+      "description": "Shows a map of location"
+  }]
+}

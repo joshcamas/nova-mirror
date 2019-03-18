@@ -1,0 +1,19 @@
+{
+  "id":"weather",
+  "options": {"city":"Seattle","unit":"f"},
+  "dependencies": ["jquery.simpleWeather.min.js"],
+  "scripts": ["app.js"],
+  "css": ["app.css"],
+  "commands": [{
+      "command": "What's the weather like today?",
+      "description": "Speaks weather information"
+  },
+  {
+      "command": "What's the weather like in _________",
+      "description": "Speaks weather information is specific location"
+  },
+  {
+      "command": "Show the forecast",
+      "description": "Displays the 5-day forcast"
+  }]
+}

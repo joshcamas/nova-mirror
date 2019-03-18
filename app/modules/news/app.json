@@ -1,0 +1,19 @@
+{
+  "id":"news",
+  "options": {},
+  "dependencies": [],
+  "scripts": ["app.js"],
+  "css": ["app.css"],
+  "commands": [{
+      "command": "Show me the news",
+      "description": "Shows you the latest news from Google News"
+  },
+  {
+      "command": "Show me news from ______",
+      "description": "Shows news from a supported source"
+  },
+  {
+      "command": "Show News Sources",
+      "description": "Shows list of supported news sources"
+  }]
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: MoonPhases;
+  src: url(dependencies/astology_font.ttf);
+}
+
+.moon-phase {
+  position:absolute;
+  top:0;
+  left:0;
+  min-width: 100%;
+  min-height: 100%;
+  display:none;
+  background-color: black;
+
+}
+.moon-phase .moon {
+  display:none;
+  font-family: MoonPhases;
+  font-size:200px;
+  text-align: center;
+  color:white;
+}
+
+.moon-phase .message {
+  color:white;
+  padding-top:10px;
+  display:none;
+
+   font-size:20px;
+}

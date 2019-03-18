@@ -1,0 +1,20 @@
+{
+    "id": "clock",
+    "options": {
+        "military": false,
+        "seconds": false,
+        "date": true,
+        "dateStyle": "{day} {date} {month}"
+    },
+    "dependencies": [],
+    "scripts": ["app.js"],
+    "css": ["app.css"],
+    "commands": [{
+        "command": "What time is it?",
+        "description": "Tells you the time"
+    },
+    {
+        "command": "What's the date today?",
+        "description": "Tells you the date"
+    }]
+}

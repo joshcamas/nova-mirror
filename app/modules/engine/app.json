@@ -1,0 +1,18 @@
+{
+  "id":"engine",
+  "description":"Basic functions built into NOVA MIRROR",
+  "options": {},
+  "dependencies": [],
+  "scripts": ["app.js"],
+  "css": ["app.css"],
+  "commands": [
+    {
+        "command": "Close",
+        "description": "Closes current display"
+    },
+    {
+        "command": "Show Commands",
+        "description": "Displays Command List"
+    }
+  ]
+}

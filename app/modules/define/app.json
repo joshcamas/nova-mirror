@@ -1,0 +1,7 @@
+{
+  "id":"define",
+  "options": {},
+  "dependencies": [],
+  "scripts": ["app.js"],
+  "css": ["app.css"]
+}

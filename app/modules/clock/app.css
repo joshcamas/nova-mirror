@@ -1,0 +1,22 @@
+.grid_clock {
+  padding-left: 40px !important;
+  height:100%;
+}
+
+.grid_clock .digital {
+  color:white;
+  font-size: 100px;
+}
+
+.grid_clock .ampm {
+  color:white;
+  font-size: 30px;
+}
+
+.grid_clock .date {
+  color:white;
+  font-size: 20px;
+  display:block;
+  position:relative;
+  top:-15px;
+}

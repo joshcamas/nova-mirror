@@ -1,0 +1,13 @@
+.alarm {
+  margin-left:50px;
+  padding-left: 30px;
+  background-image: url("assets/alarm.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+.alarm.disabled {
+  color:grey;
+}

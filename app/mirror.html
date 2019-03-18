@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nova Mirror</title>
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="style.css" rel="stylesheet">
+
+
+    <script type="text/javascript" src="js/jquery.2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/sugar.js"></script>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+
+    <script type="text/javascript" src="js/samac.js"></script>
+    <script type="text/javascript" src="js/samac-artyom.js"></script>
+    <script type="text/javascript" src="js/module.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    <script type="text/javascript" src="js/user.js"></script>
+
+    <script src="/js/artyom.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+    <script>
+        $(document).ready(function() {
+
+            SAMAC.Initiate()
+
+        });
+    </script>
+</head>
+
+<body>
+    <div id="navbar"><span class="listening"></span></div>
+
+    <h1 id="debug"></h1>
+    <div id="results"></div>
+
+    <!-- Generated grid goes here -->
+    <div id="grid"></div>
+
+    <div id="grid-bottom"></div>
+
+    <div id="artyom-microphone" class="artyom-microphone center-container" style="display:none">
+        <div class="center">
+            <!--<img src='assets/microphone.png'><br>-->
+            <div id="span-preview"> </div>
+        </div>
+
+    </div>
+
+    <div id='loader' class='full loader'>
+        <div class='center-container' style='height:100%'>
+            <div class='center' style='top:15%'>
+
+                <a class='moon'>c</a><br>
+                <a class='message'></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id='setupMessage' class='full loader' style="display:none">
+        <div class='center-container' style='height:100%'>
+            <div class='center' style='top:15%'>
+              <h3>Welcome!</h3>
+                <a class='message'>To setup, point your phone or computer to </a>
+                <h5>192.168.1.0</h5>
+                <br>
+                <a class='message' style="font-size:15px"><i>For help, say 'help'. To skip setup, say 'skip' </i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="listener">
+        <div class="listener-content">
+            <span class='message'><i class="message-icon medium material-icons" style=" vertical-align: middle; padding-right:10px">mic</i><a class='message-title'>Listening</a></span>
+            <span class='message-text' style="padding-left:50px;"></span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "id":"default",
+  "options": {},
+  "dependencies": ["suncalc.js"],
+  "scripts": ["app.js"],
+  "css": ["app.css"],
+  "commands": [{
+      "command": "Goodnight",
+      "description": "Sends mirror into sleep mode"
+  },
+  {
+      "command": "Good Morning",
+      "description": "Wakes mirror"
+  },
+  {
+      "command": "Turn off Screen",
+      "description": "Sends mirror into sleep mode, and disables nighttime display"
+  }]
+}

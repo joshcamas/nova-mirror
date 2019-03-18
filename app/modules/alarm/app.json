@@ -1,0 +1,19 @@
+{
+  "id":"default",
+  "options": {},
+  "dependencies": ["moment.js"],
+  "scripts": ["app.js"],
+  "css": ["app.css"],
+  "commands": [{
+      "command": "Add an alarm for _____",
+      "description": "Creates a new alarm"
+  },
+  {
+      "command": "Delete alarm (number)",
+      "description": "Deletes alarm"
+  },
+  {
+      "command": "Enable / Disable alarm (number)",
+      "description": "Enables or Disables alarm"
+  }]
+}

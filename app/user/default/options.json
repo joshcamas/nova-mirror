@@ -1,0 +1,9 @@
+{
+  "modules": [
+    "clock","weather","nicemessage","directions","debug","eastereggs","news","sleep"
+  ],
+  "interface": {
+    "modules":[[{"id":"clock","width":1,"height":1},{"id":"weather","width":1,"height":1}],[{"id":"directions"}]],
+    "modules_bottom":[[{"id":"nicemessage","width":1,"height":1}]]
+  }
+}

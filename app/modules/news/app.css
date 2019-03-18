@@ -1,0 +1,18 @@
+.modal.news_news .modal-content {
+  background-color:black;
+}
+
+.modal.news_news .modal-content .collection {
+  background-color:black;
+}
+
+
+.modal.news_news .modal-content .collection .collection-item {
+
+  padding: 20px 25px;
+  padding-left: 72px;
+}
+
+.modal.news_news .modal-content .collection .collection-item .title{
+  font-weight: 400;
+}
